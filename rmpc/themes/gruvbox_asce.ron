@@ -24,8 +24,8 @@
     borders_style: (fg: "yellow"),
     highlight_border_style: (fg: "yellow"),
     symbols: (
-        song: "S",
-        dir: "D",
+        song: "",
+        dir: "",
         playlist: "P",
         marker: "M",
         ellipsis: "...",
