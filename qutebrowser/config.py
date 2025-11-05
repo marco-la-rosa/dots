@@ -273,12 +273,12 @@ c.fonts.web.size.default = 20
 c.url.searchengines = {
 # note - if you use duckduckgo, you can make use of its built in bangs, of which there are many! https://duckduckgo.com/bangs
         'DEFAULT': 'https://duckduckgo.com/?q={}',
-        '!aw': 'https://wiki.archlinux.org/?search={}',
-        '!apkg': 'https://archlinux.org/packages/?sort=&q={}&maintainer=&flagged=',
-        '!git': 'https://github.com/search?o=desc&q={}&s=stars',
-        '!yt': 'https://www.youtube.com/results?search_query={}',
-        '!wk': 'https://it.wikipedia.org/w/index.php?search={}',
-        '!gpt': 'https://chatgpt.com/?q={}',
+        '@aw': 'https://wiki.archlinux.org/?search={}',
+        '@apkg': 'https://archlinux.org/packages/?sort=&q={}&maintainer=&flagged=',
+        '@git': 'https://github.com/search?o=desc&q={}&s=stars',
+        '@yt': 'https://www.youtube.com/results?search_query={}',
+        '@wk': 'https://it.wikipedia.org/w/index.php?search={}',
+        '@gpt': 'https://chatgpt.com/?q={}',
         }
 
 c.completion.open_categories = ['searchengines', 'quickmarks', 'bookmarks', 'history', 'filesystem']
